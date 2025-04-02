@@ -30,20 +30,21 @@ USE `website_mvc`;
 --
 
 CREATE TABLE `tbl_admin` (
-  `adminId` int(11) NOT NULL,
-  `adminName` varchar(255) NOT NULL,
-  `adminEmail` varchar(255) NOT NULL,
-  `adminUser` varchar(255) NOT NULL,
-  `adminPass` varchar(255) NOT NULL,
-  `level` int(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `adminId` INT(11) NOT NULL AUTO_INCREMENT,
+  `adminName` VARCHAR(255) NOT NULL,
+  `adminEmail` VARCHAR(255) NOT NULL UNIQUE,
+  `adminUser` VARCHAR(255) NOT NULL UNIQUE,
+  `adminPass` VARCHAR(255) NOT NULL,
+  `level` TINYINT(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`adminId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `tbl_admin`
 --
 
-INSERT INTO `tbl_admin` (`adminId`, `adminName`, `adminEmail`, `adminUser`, `adminPass`, `level`) VALUES
-(123, 'voquockhanh', 'voquockhanh2009@gmail.com', 'admin', '123', 0);
+INSERT INTO `tbl_admin` (`adminName`, `adminEmail`, `adminUser`, `adminPass`, `level`) 
+VALUES ('voquockhanh', 'voquockhanh2009@gmail.com', 'admin', '$2y$10$GQashqkKqIQSp.O9KKZ20OYl/XtKei4Ac/6h7WstEA41OJQNJfzp.', 0);
 
 -- --------------------------------------------------------
 

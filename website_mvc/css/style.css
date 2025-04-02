@@ -182,7 +182,6 @@ input[type="number"] {
 .register_account h3,.login_panel h3{
 	font-size: 22px;
 	color: #6C6C6C;
-	font-family: 'Monda', sans-serif;
 	padding-bottom:.4em;
 }
 .register_account {
@@ -203,7 +202,7 @@ input[type="number"] {
 	width:340px;
 }
 .register_account form select{
-	width:360px;
+	/* width:360px; */
 	color:#666;
 }
 .register_account form input[type="text"].code{
@@ -628,7 +627,7 @@ p.note{
 }
 .images_1_of_4  img{
 	max-width:100%;
-	height: 50%;
+	height: 58%;
 }
 .discount{
 	background:url(../images/discount-img.png) no-repeat 0 0;
@@ -781,7 +780,7 @@ p.note{
 	color:#BBB7B7;
 }
 .span_1_of_4  li span{
-	font-size:1.2em;
+	/* font-size:1.2em; */
 	padding:0.2em 0;
 	color:#979797;
 	display:block;
@@ -1052,6 +1051,25 @@ p.note{
 	color:#333;
 	font-weight:bold;
 }
+
+.group-name {
+	font-weight: 600;
+	font-family: 'Monda', sans-serif;
+	padding: 10px 0;
+	font-size: 18px;
+	color: #392f66;
+}
+
+.spec-group{
+	margin-left: 5px;
+}
+.specs {
+	border: solid #392f66 2px;
+}
+.specs .spec {
+	padding: 5px 0;
+}
+
 .input-box{
 	background:url(../images/tag.png) no-repeat 0 8px;
 	padding-left:35px;
@@ -2202,9 +2220,11 @@ p.terms {
 	.listimg_2_of_1{
 	     width:48%;		
    }
-	.list_2_of_1 {
+   
+	/* .list_2_of_1 {
 		width: 100%;
-	}
+	} */
+
     /* Content */
      .content_top {
     	padding:15px 10px;

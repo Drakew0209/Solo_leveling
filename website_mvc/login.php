@@ -25,8 +25,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
 <div class="main">
     <div class="content">
         <div class="login_panel">
-            <h3>Existing Customers</h3>
-            <p>Sign in with the form below.</p>
+            <h3>Đăng nhập tài khoản</h3>
+            <p>Đăng nhập bằng mẫu dưới đây.</p>
             <?php 
         	if(isset($login_Customer))
     		{
@@ -37,14 +37,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
                 <input type="text" name="email" class="field" placeholder="Enter E-Mail">
                 <input type="password" name="password" class="field" placeholder="Enter Password">
 
-                <p class="note">If you forgot your passoword just enter your email and click <a href="#">here</a></p>
+                <p class="note">Nếu bạn quên mật khẩu, hãy nhập email của bạn và nhấp vào <a href="#">đây</a></p>
                 <div class="search">
-                    <div><input type="submit" name="login" class="grey" value="Sign In" style="font-size: 20px"></div>
+                    <div><input type="submit" name="login" class="grey" value="Đăng nhập" style="font-size: 20px"></div>
                 </div>
         </div>
         </form>
         <div class="register_account">
-            <h3>Register New Account</h3>
+            <h3>Đăng ký tài khoản mới</h3>
             <?php 
     		if(isset($insertCustomer))
     		{
@@ -99,11 +99,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
 		    </tr> 
 		    </tbody></table> 
 		   <div class=" search">
-                                    <div><input type="submit" name="submit" class="grey" value="Create Account"
+                                    <div><input type="submit" name="submit" class="grey" value="Tạo tài khoản"
                                             style="font-size: 20px"></div>
                                 </div>
-                                <p class="terms">By clicking 'Create Account' you agree to the <a href="#">Terms &amp;
-                                        Conditions</a>.</p>
+                                <p class="terms">Bằng cách nhấp vào 'Tạo tài khoản', bạn đồng ý với <a href="#">Điều khoản & Điều kiện</a>.</p>
                                 <div class="clear"></div>
             </form>
         </div>

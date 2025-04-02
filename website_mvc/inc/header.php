@@ -56,7 +56,7 @@
     <div class="wrap">
         <div class="header_top">
             <div class="logo">
-                <a href="index.php"><img src="admin/uploads/logo3.png" alt="" /></a>
+                <a href="index.php"><img style="margin-left: 20px;" width="110px" src="admin/uploads/logo5.jpg" alt="" /></a>
             </div>
             <div class="header_top_right">
                 <div class="search_box">

@@ -58,11 +58,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
             <div class="col span_1_of_3">
                 <div class="company_address">
                     <h2>Thông tin liên hệ :</h2>
-                    <p>Lưu Văn Nhật</p>
-                    <p>0989898989</p>
-                    <p> Hà Nội</p>
-                    <p>Chuyên đề công nghệ phần mềm</p>
-                    <p>CNTT6-K60</p>
+                    <p>Võ Quốc Khánh</p>
+                    <p>0382533868</p>
+                    <p>Sì gòn</p>
+                    <p>web2</p>
+                    <p>CNTT</p>
                     <p></p>
                 </div>
             </div>
