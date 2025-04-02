@@ -1,0 +1,7 @@
+admin:http://localhost/website_mvc/admin/login.php
+
+tai khoan: admin
+mat khau: 123
+
+nguoi dung: 
+co the tu dang ki tai khoan moi
