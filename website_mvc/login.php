@@ -57,43 +57,43 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['login'])) {
                         <tr>
                             <td>
                                 <div>
-                                    <input type="text" name="name" placeholder="Enter Name">
+                                    <input type="text" name="name" placeholder="Nhập Tên người dùng">
                                 </div>
 
                                 <div>
-                                    <input type="text" name="city" placeholder="Enter City">
+                                    <input type="text" name="city" placeholder="Nhập thành phố">
                                 </div>
 
                                 <div>
-                                    <input type="text" name="zipcode" placeholder="Enter Zip-Code">
+                                    <input type="text" name="zipcode" placeholder="Nhập Zip-Code">
                                 </div>
                                 <div data-validate="Valid email is: a@b.c">
-                                    <input type="text" name="email" placeholder="Enter E-Mail">
+                                    <input type="text" name="email" placeholder="Nhập E-Mail">
                                 </div>
                             </td>
                             <td>
                                 <div>
-                                    <input type="text" name="address" placeholder="Enter Address">
+                                    <input type="text" name="address" placeholder="Nhập Địa chỉ">
                                 </div>
                                 <div>
                                     <select id="country" name="country" onchange="change_country(this.value)"
                                         class="frm-field required">
-                                        <option value="null">Select a Country</option>
+                                        <option value="null">Chọn Quốc Gia</option>
                                         <option value="VN">Việt Nam</option>
-                                        <option value="P">Pháp</option>
-                                        <option value="HL">Hy Lạp</option>
-                                        <option value="BL">Ba Lan</option>
+                                        <option value="P">Cam-pu-chia</option>
+                                        <option value="HL">Ronaldo</option>
+                                        <option value="BL">Messi</option>
 
 
                                     </select>
                                 </div>
 
                                 <div>
-                                    <input type="text" name="phone" placeholder="Enter Phone">
+                                    <input type="text" name="phone" placeholder="Nhập Số Điện Thoại">
                                 </div>
 
                                 <div>
-                                    <input type="text" name="password" placeholder="Enter Password" ">
+                                    <input type="text" name="password" placeholder="Nhập Mật Khẩu">
 				</div>
 		    	</td>
 		    </tr> 

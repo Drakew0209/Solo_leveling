@@ -46,11 +46,11 @@ Session::checkSession();
         <div class="grid_12 header-repeat">
             <div id="branding">
                 <div class="floatleft logo">
-                    <img src="uploads/logo3.png" alt="Logo" height="50px" />
+                    <img src="uploads/logo5.png" alt="Logo" height="50px" />
 				</div>
 				<div class="floatleft middle">
 					<h1>ADMIN</h1>
-					<p>www.XEMAY123.com</p>
+					<p>www.XEMOTO.com</p>
 				</div>
                 <div class="floatright">
                     <div class="floatleft">
