@@ -74,11 +74,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
                 <table class="tblone">
                     <tr>
                         <th width="20%">Tên sản phẩm</th>
-                        <th width="10%">Image</th>
+                        <th width="10%">Ảnh</th>
                         <th width="15%">Giá</th>
                         <th width="25%">Số Lượng</th>
                         <th width="20%">Tổng Giá</th>
-                        <th width="10%">Action</th>
+                        <th width="10%">Hoạt động</th>
                     </tr>
                     <?php
 							

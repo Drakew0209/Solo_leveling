@@ -63,7 +63,7 @@
                     <form method="POST" action="search_product.php">
                         <input style="color: #fff;" type="text" name="product_name_search"
                             placeholder="Nhập tên xe cần tìm..." value="">
-                        <input type="submit" name="search_product" value="SEARCH">
+                        <input type="submit" name="search_product" value="Tìm kiếm">
                     </form>
                 </div>
 

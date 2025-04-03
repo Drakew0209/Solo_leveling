@@ -129,10 +129,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['submit'])) {
             </div>
             <div class="shopping">
                 <div class="shopleft">
-                    <a href="index.php"> <img src="images/shop.png" alt="" /></a>
+                    <a href="payment.php"> <img width="350px" src="images/mua_ngay.gif" alt="" /></a>
                 </div>
                 <div class="shopright">
-                    <a href="payment.php"> <img src="images/check.png" alt="" /></a>
+                    <a href="index.php"> <img src="images/exit.png" alt="" /></a>
                 </div>
             </div>
         </div>

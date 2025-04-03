@@ -81,7 +81,7 @@ Session::checkSession();
                 <li class="ic-form-style"><a href="profileadmin.php"><span>Thông tin người dùng</span></a></li>
 				<li class="ic-typography"><a href="changepassword.php"><span>Thay đổi mật khẩu</span></a></li>
 				<li class="ic-grid-tables"><a href="inbox.php"><span>Đơn hàng</span></a></li>
-                <li class="ic-charts"><a href="http://localhost:8080/website_mvc/login.php"><span>Website</span></a></li>
+                <li class="ic-charts"><a href="http://localhost/solo_leveling/website_mvc/index.php"><span>Website</span></a></li>
             </ul>
         </div>
         <div class="clear">

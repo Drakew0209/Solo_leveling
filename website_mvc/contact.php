@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
     <div class="content">
         <div class="support">
             <div class="support_desc">
-                <h3>Live Support</h3>
+                <h3>Hỗ trợ trực tuyến</h3>
                 <p><span><?php
   				if(isset($insertcontact))
   					echo $insertcontact ;

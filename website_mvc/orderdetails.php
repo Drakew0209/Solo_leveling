@@ -39,12 +39,12 @@ if($login_check==false)
 							<tr>
 								<th width="5%">ID</th>
 								<th width="20%">Tên sản phẩm</th>
-								<th width="10%">Image</th>
+								<th width="10%">Ảnh</th>
 								<th width="15%">Giá</th>
-								<th width="5%">Số Lượng</th>
+								<th width="10%">Số Lượng</th>
 								<th width="20%">Ngày</th>
 								<th width="15%">Trạng thái</th>
-								<th width="10%">Action</th>
+								<th width="10%">Hoạt động</th>
 							</tr>
 							<?php 
 							  $customer_id = Session::get('customer_id');
@@ -106,7 +106,7 @@ if($login_check==false)
 					</div>
 					<div class="shopping">
 						<div class="shopleft">
-							<a href="index.php"> <img src="images/shop.png" alt="" /></a>
+							<a href="index.php"> <img width="150px" src="images/exit.png" alt="" /></a>
 						</div>
 						
 					</div>
