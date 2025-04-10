@@ -5,11 +5,6 @@ include 'inc/header.php';
 ?>
 
 <style type="text/css">
-	img
-	{
-		width: 200px;
-		height: 120px;
-	}
 	.grid_1_of_4.images_1_of_4 {
     height: 290px;
 }
